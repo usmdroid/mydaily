@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303F9F</color>
+    <color name="colorPrimaryDark">#5512aacc</color>
+    <color name="colorAccent">#303F9F</color>
+    <color name="back_button">#A58F</color>
+    <color name="dark_grey">#666666</color>
+    <color name="light_grey">#7F7F7F</color>
+    <color name="black">#000000</color>
+    <color name="white">#fff</color>
+    <color name="oppocity">#8000</color>
+    <color name="item_notes">#2000</color>
+    <color name="swipe">#02FDff</color>
+</resources>

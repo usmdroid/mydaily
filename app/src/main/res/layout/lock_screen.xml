@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_gradient">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:id="@+id/lock_title"
+        android:text="Parolni kiriting"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/lock_error"
+        android:text="Parol xato!"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#f00"
+        android:layout_below="@+id/lock_title"/>
+
+    <com.andrognito.patternlockview.PatternLockView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:id="@+id/lockview"
+        app:wrongStateColor="#f00"
+        app:correctStateColor="#0f0"
+        app:normalStateColor="#0000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

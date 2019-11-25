@@ -1,0 +1,85 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="125dp"
+    android:background="@drawable/item_back"
+    android:id="@+id/card_item"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete_check"
+        android:visibility="gone"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="Ob- havo"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="@font/maian"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:minLines="1"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:id="@+id/description"
+        android:text="@string/description"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/title"
+        android:fontFamily="@font/monotype"
+        />
+
+    <TextView
+        android:id="@+id/emoji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="4dp"
+        android:text="🙄"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/feeling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/emoji"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="4dp"
+        android:text="Kayfiyat it"
+        android:fontFamily="@font/maian"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+<TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="4dp"
+        android:text="14:45"
+    android:fontFamily="@font/maian"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+</RelativeLayout>

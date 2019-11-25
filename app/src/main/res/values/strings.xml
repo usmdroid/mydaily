@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Мой дневник</string>
+    <string name="notes">Qaydlar</string>
+    <string name="time">Vaqtlar</string>
+    <string name="settings">Sozlamalar</string>
+    <string name="description">Bugun ob- havo ochiq bo`ldi. Kunduzi biroz iliq(+10C) ammo, kechlik ancha sovuq(-10). O`tgan yilning shu kunida esa havo bundan keskin farq qilgan. Buning sababi bu yil qish ancha vaqtli kelganida <b>bo`lsa</b> kerak</string>
+</resources>
